@@ -1,0 +1,12 @@
+---
+- name: enable kwallet pam unlook
+  lineinfile:
+    path: /etc/pam.d/gdm-password
+    regexp: "{{ pam_entry.line }}"
+    insertafter: "{{ pam_entry.after }}"
+    line: "{{ pam_entry.line }}"
+  loop:
+    - { after: 'auth        include       postlogin', line: 'auth        optional      pam_kwallet5.so' }
+    - { after: 'session     include       postlogin', line: 'session     optional      pam_kwallet5.so auto_start' }
+  loop_control:
+    loop_var: pam_entry

@@ -1,0 +1,23 @@
+---
+# tasks file for software_desktop_package
+- name: include os dependent variagles
+  include_vars: "{{ item }}"
+  with_first_found:
+    - "{{ ansible_distribution }}-{{ ansible_distribution_major_version }}.yml"
+    - "{{ ansible_distribution }}.yml"
+    - "{{ ansible_os_family }}.yml"
+
+- name: ensure desktop software packages are installed
+  package:
+    pkg: "{{ desktop_software_packages }}"
+    state: present
+  tags:
+    - software
+    - install
+
+- name: run OS specific tasks
+  include_tasks: "{{ item }}"
+  with_first_found:
+    - "tasks/{{ ansible_distribution }}.yml"
+    - "tasks/{{ ansible_os_family }}.yml"
+    - "tasks/default.yml"
