@@ -48,6 +48,7 @@ desktop_software_packages:
   - inkscape
   - kbibtex
   - keepassxc
+  - kitty
   - kwallet
   - langpacks-de
   - latexmk
