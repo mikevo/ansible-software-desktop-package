@@ -25,6 +25,7 @@ desktop_software_packages:
   - conky
   - dex-autostart
   - dmenu
+  - dolphin
   - f21-backgrounds-extras-gnome
   - f22-backgrounds-extras-gnome
   - f23-backgrounds-extras-gnome
