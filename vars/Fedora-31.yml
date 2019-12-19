@@ -17,6 +17,7 @@ desktop_software_packages:
   - arandr
   - breeze-cursor-theme
   - breeze-gtk
+  - breeze-icon-theme
   - brightlight
   - chromium
   - clang
@@ -48,11 +49,13 @@ desktop_software_packages:
   - i3status
   - inkscape
   - kbibtex
+  - kde-style-breeze
   - keepassxc
   - kitty
   - kwallet
   - langpacks-de
   - latexmk
+  - lxappearance
   - network-manager-applet
   - nextcloud-client
   - nitrogen
@@ -60,10 +63,13 @@ desktop_software_packages:
   - okular
   - pam-kwallet
   - pavucontrol
+  - plasma-breeze
+  - plasma-breeze-common
   - playerctl
   - pxz
   - py3status
   - python3-tzlocal
+  - qt5ct
   - rofi
   - scribus
   - sway
