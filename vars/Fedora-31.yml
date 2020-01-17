@@ -91,6 +91,7 @@ desktop_software_packages:
   - texlive-newtx
   - texlive-pbox
   - texlive-scheme-medium
+  - texlive-svg
   - texlive-tabu
   - texlive-tcolorbox
   - texlive-todonotes
