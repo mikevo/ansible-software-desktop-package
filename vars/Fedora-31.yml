@@ -23,6 +23,7 @@ desktop_software_packages:
   - clang
   - clang-tools-extra
   - conky
+  - darktable
   - dex-autostart
   - dmenu
   - dolphin
