@@ -27,6 +27,7 @@ desktop_software_packages:
   - dex-autostart
   - dmenu
   - dolphin
+  - exfat-utils
   - f21-backgrounds-extras-gnome
   - f22-backgrounds-extras-gnome
   - f23-backgrounds-extras-gnome
@@ -39,6 +40,7 @@ desktop_software_packages:
   - f30-backgrounds-extras-gnome
   - f31-backgrounds-extras-gnome
   - feh
+  - fuse-exfat
   - fuse-sshfs
   - gimp
   - gnome-tweak-tool
@@ -65,6 +67,7 @@ desktop_software_packages:
   - okular
   - pam-kwallet
   - pavucontrol
+  - pdfpc
   - plasma-breeze
   - plasma-breeze-common
   - playerctl
