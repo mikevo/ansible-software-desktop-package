@@ -10,3 +10,15 @@
     name: im.riot.Riot
     state: present
     remote: flathub
+
+- name: Install Slack client
+  flatpak:
+    name: com.slack.Slack
+    state: present
+    remote: flathub
+
+- name: Install Spotify client
+  flatpak:
+    name: com.spotify.Client
+    state: present
+    remote: flathub
