@@ -27,6 +27,7 @@ desktop_software_packages:
   - dex-autostart
   - dmenu
   - dolphin
+  - ekiga
   - exfat-utils
   - f21-backgrounds-extras-gnome
   - f22-backgrounds-extras-gnome
@@ -60,6 +61,7 @@ desktop_software_packages:
   - langpacks-de
   - latexmk
   - lxappearance
+  - mpv
   - network-manager-applet
   - nextcloud-client
   - nitrogen
