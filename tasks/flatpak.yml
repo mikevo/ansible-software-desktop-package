@@ -1,0 +1,12 @@
+---
+- name: Add the flathub flatpak remote to the system installation
+  flatpak_remote:
+    name: flathub
+    state: present
+    flatpakrepo_url: https://flathub.org/repo/flathub.flatpakrepo
+
+- name: Install Riot client
+  flatpak:
+    name: im.riot.Riot
+    state: present
+    remote: flathub
