@@ -25,6 +25,7 @@ desktop_software_packages:
   - conky
   - darktable
   - dex-autostart
+  - diffpdf
   - dmenu
   - dolphin
   - ekiga
