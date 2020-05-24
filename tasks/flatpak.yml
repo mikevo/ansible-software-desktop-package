@@ -17,6 +17,12 @@
     state: present
     remote: flathub
 
+- name: Install Discord client
+  flatpak:
+    name: com.discordapp.Discord
+    state: present
+    remote: flathub
+
 - name: Install Spotify client
   flatpak:
     name: com.spotify.Client
