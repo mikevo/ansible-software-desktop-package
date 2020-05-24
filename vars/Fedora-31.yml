@@ -78,6 +78,8 @@ desktop_software_packages:
   - py3status
   - python3-tzlocal
   - qt5ct
+  - rclone
+  - rclone-browser
   - rofi
   - scribus
   - sway
