@@ -41,6 +41,8 @@ desktop_software_packages:
   - f29-backgrounds-extras-gnome
   - f30-backgrounds-extras-gnome
   - f31-backgrounds-extras-gnome
+  - f32-backgrounds-extras-gnome
+  - f33-backgrounds-extras-gnome
   - feh
   - fuse-exfat
   - fuse-sshfs
@@ -61,6 +63,7 @@ desktop_software_packages:
   - kwallet
   - langpacks-de
   - latexmk
+  - libnsl
   - lxappearance
   - mpv
   - network-manager-applet
