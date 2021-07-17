@@ -11,20 +11,8 @@
     state: present
     remote: flathub
 
-- name: Install Slack client
+- name: install Zotero
   flatpak:
-    name: com.slack.Slack
-    state: present
-    remote: flathub
-
-- name: Install Discord client
-  flatpak:
-    name: com.discordapp.Discord
-    state: present
-    remote: flathub
-
-- name: Install Spotify client
-  flatpak:
-    name: com.spotify.Client
+    name: org.zotero.Zotero
     state: present
     remote: flathub

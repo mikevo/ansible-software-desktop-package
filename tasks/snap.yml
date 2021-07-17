@@ -1,0 +1,13 @@
+---
+- name: install Slack
+  community.general.snap:
+    name: slack
+    classic: yes
+
+- name: install Spotify
+  community.general.snap:
+    name: spotify
+
+- name: install Todoist
+  community.general.snap:
+    name: todoist

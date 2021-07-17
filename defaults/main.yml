@@ -1,3 +1,4 @@
 ---
 # defaults file for software_desktop_package
 software_desktop_package_flatpak_software: false
+software_desktop_package_snap_software: false

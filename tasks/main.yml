@@ -19,6 +19,10 @@
   include_tasks: "tasks/flatpak.yml"
   when: software_desktop_package_flatpak_software
 
+- name: install snap software
+  include_tasks: "tasks/snap.yml"
+  when: software_desktop_package_snap_software
+
 - name: run OS specific tasks
   include_tasks: "{{ item }}"
   with_first_found:
