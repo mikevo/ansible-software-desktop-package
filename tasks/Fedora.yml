@@ -1,4 +1,12 @@
 ---
+- name: enable classic snap support
+  ansible.builtin.file:
+    src: /var/lib/snapd/snap
+    dest: /snap
+    owner: root
+    group: root
+    state: link
+
 - name: enable kwallet pam unlook
   lineinfile:
     path: /etc/pam.d/gdm-password

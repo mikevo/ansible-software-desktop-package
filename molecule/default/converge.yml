@@ -1,5 +1,7 @@
 ---
 - name: Converge
   hosts: all
-  roles:
-    - role: software_desktop_package
+  tasks:
+    - name: "Include software-desktop-package"
+      include_role:
+        name: "software-desktop-package"

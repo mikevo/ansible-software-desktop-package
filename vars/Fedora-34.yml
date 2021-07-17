@@ -29,7 +29,6 @@ desktop_software_packages:
   - diffpdf
   - dmenu
   - dolphin
-  - ekiga
   - exfat-utils
   - f21-backgrounds-extras-gnome
   - f22-backgrounds-extras-gnome
@@ -44,6 +43,7 @@ desktop_software_packages:
   - f31-backgrounds-extras-gnome
   - f32-backgrounds-extras-gnome
   - f33-backgrounds-extras-gnome
+  - f34-backgrounds-extras-gnome
   - feh
   - fuse-exfat
   - fuse-sshfs
@@ -113,7 +113,6 @@ desktop_software_packages:
   - thunar
   - thunderbird
   - thunderbird-lightning
-  - unison240
   - vim-X11
   - vinagre
   - virt-manager
