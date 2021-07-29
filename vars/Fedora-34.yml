@@ -118,6 +118,7 @@ desktop_software_packages:
   - virt-manager
   - xbacklight
   - xfce4-terminal
+  - yaru-theme
   - yubikey-personalization-gui
   - yubioath-desktop
   - zathura
