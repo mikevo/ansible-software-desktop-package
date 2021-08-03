@@ -60,7 +60,6 @@ desktop_software_packages:
   - kbibtex
   - kde-style-breeze
   - keepassxc
-  - kitty
   - kwallet
   - langpacks-de
   - latexmk
@@ -88,6 +87,7 @@ desktop_software_packages:
   - scribus
   - snapd
   - sway
+  - swaylock
   - texlive-appendix
   - texlive-background
   - texlive-bibexport-bin
