@@ -29,6 +29,7 @@ desktop_software_packages:
   - diffpdf
   - dmenu
   - dolphin
+  # - ekiga
   - exfat-utils
   - f21-backgrounds-extras-gnome
   - f22-backgrounds-extras-gnome
@@ -60,6 +61,7 @@ desktop_software_packages:
   - kbibtex
   - kde-style-breeze
   - keepassxc
+  - kitty
   - kwallet
   - langpacks-de
   - latexmk
@@ -113,6 +115,7 @@ desktop_software_packages:
   - thunar
   - thunderbird
   - thunderbird-lightning
+  # - unison240
   - vim-X11
   - vinagre
   - virt-manager
