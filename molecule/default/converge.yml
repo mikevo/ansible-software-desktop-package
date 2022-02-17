@@ -1,6 +1,11 @@
 ---
 - name: Converge
   hosts: all
+
+  vars:
+    software_desktop_package_flatpak_software: true
+    software_desktop_package_snap_software: false
+
   tasks:
     - name: "Include software-desktop-package"
       include_role:

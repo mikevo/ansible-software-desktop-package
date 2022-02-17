@@ -19,6 +19,7 @@ desktop_software_packages:
   - diffpdf
   - dmenu
   - feh
+  - flatpak
   - exfat-fuse
   - sshfs
   - gimp

@@ -1,7 +1,7 @@
 ---
 # defaults file for software_desktop_package
-software_desktop_package_flatpak_software: false
-software_desktop_package_snap_software: false
+software_desktop_package_flatpak_software: true
+software_desktop_package_snap_software: true
 
 software_desktop_package_snap_packages:
   - name: slack
@@ -10,3 +10,7 @@ software_desktop_package_snap_packages:
   - name: todoist
   - name: onlyoffice-desktopeditors
   - name: drawio
+  - name: projectlibre
+
+software_desktop_package_flatpak_packages:
+  - name: org.zotero.Zotero

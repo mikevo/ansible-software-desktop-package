@@ -1,18 +1,13 @@
 ---
 - name: Add the flathub flatpak remote to the system installation
-  flatpak_remote:
+  community.general.flatpak_remote:
     name: flathub
     state: present
     flatpakrepo_url: https://flathub.org/repo/flathub.flatpakrepo
 
-- name: Install Riot client
-  flatpak:
-    name: im.riot.Riot
+- name: Install faltpak packages
+  community.general.flatpak:
+    name: "{{ item.name }}"
     state: present
     remote: flathub
-
-- name: install Zotero
-  flatpak:
-    name: org.zotero.Zotero
-    state: present
-    remote: flathub
+  with_items: "{{ software_desktop_package_flatpak_packages }}"
