@@ -2,3 +2,11 @@
 # defaults file for software_desktop_package
 software_desktop_package_flatpak_software: false
 software_desktop_package_snap_software: false
+
+software_desktop_package_snap_packages:
+  - name: slack
+    classic: yes
+  - name: spotify
+  - name: todoist
+  - name: onlyoffice-desktopeditors
+  - name: drawio
