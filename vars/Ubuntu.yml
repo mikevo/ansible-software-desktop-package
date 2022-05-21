@@ -9,7 +9,7 @@ desktop_software_packages:
   - breeze-cursor-theme
   - breeze-gtk-theme
   - breeze-icon-theme
-  # - brightlight
+  - brightnessctl
   - chromium-browser
   - clang
   - clang-tools

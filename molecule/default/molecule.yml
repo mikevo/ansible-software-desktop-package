@@ -4,17 +4,14 @@ dependency:
 driver:
   name: docker
 platforms:
-  - name: desktop-fedora35
-    image: "fedora:35"
+  - name: desktop-fedora36
+    image: "fedora:36"
     pre_build_image: true
   - name: desktop-debian11
     image: "debian:11"
     pre_build_image: true
   - name: desktop-debian-testing
     image: "debian:testing"
-    pre_build_image: true
-  - name: desktop-ubuntu2004
-    image: "ubuntu:20.04"
     pre_build_image: true
   - name: desktop-ubuntu2204
     image: "ubuntu:22.04"
