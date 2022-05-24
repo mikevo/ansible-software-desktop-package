@@ -13,4 +13,5 @@ software_desktop_package_snap_packages:
   - name: projectlibre
 
 software_desktop_package_flatpak_packages:
+  - name: com.mattermost.Desktop
   - name: org.zotero.Zotero
