@@ -14,4 +14,5 @@ software_desktop_package_snap_packages:
 
 software_desktop_package_flatpak_packages:
   - name: com.mattermost.Desktop
+  - name: org.signal.Signal
   - name: org.zotero.Zotero
