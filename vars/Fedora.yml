@@ -83,12 +83,14 @@ desktop_software_packages:
   - texlive-fontawesome
   - texlive-forest
   - texlive-inconsolata
+  - texlive-lastpage
   - texlive-libertine
   - texlive-mdframed
   - texlive-menukeys
   - texlive-minted
   - texlive-newtx
   - texlive-pbox
+  - texlive-plex
   - texlive-scheme-medium
   - texlive-svg
   - texlive-tabu
