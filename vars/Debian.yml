@@ -20,6 +20,8 @@ desktop_software_packages:
   - dmenu
   - feh
   - flatpak
+  - freerdp2-wayland
+  - freerdp2-x11
   - exfat-fuse
   - sshfs
   - gimp

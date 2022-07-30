@@ -30,6 +30,7 @@ desktop_software_packages:
   - dmenu
   - feh
   - flatpak
+  - freerdp
   - fuse-exfat
   - fuse-sshfs
   - gimp
