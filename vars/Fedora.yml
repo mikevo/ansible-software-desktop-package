@@ -103,8 +103,14 @@ desktop_software_packages:
   - vim-X11
   - vinagre
   - virt-manager
+  - wl-clipboard
+  - wofi
+  - wtype
   - xbacklight
+  - xclip
+  - xdotool
   - xfce4-terminal
+  - xsel
   - yaru-theme
   - yubikey-personalization-gui
   - yubioath-desktop

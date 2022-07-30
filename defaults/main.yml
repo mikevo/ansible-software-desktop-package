@@ -3,6 +3,9 @@
 software_desktop_package_flatpak_software: true
 software_desktop_package_snap_software: true
 
+desktop_package_software_python_packages:
+  - rofimoji
+
 software_desktop_package_snap_packages:
   - name: slack
     classic: yes

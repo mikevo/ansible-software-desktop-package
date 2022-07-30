@@ -15,6 +15,15 @@
     - software
     - install
 
+- name: ensure desktop software python packages are installed
+  ansible.builtin.pip:
+    name: "{{ item }}"
+    state: present
+  loop: "{{ desktop_package_software_python_packages }}"
+  tags:
+    - software
+    - install
+
 - name: install flatpak software
   include_tasks: "tasks/flatpak.yml"
   when: software_desktop_package_flatpak_software
