@@ -24,7 +24,9 @@ desktop_software_packages:
   - freerdp2-x11
   - exfat-fuse
   - sshfs
+  - sshpass
   - gimp
+  - gnome-screenshot
   - gnome-icon-theme
   - gnome-tweaks
   - gnucash
