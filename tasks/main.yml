@@ -9,8 +9,11 @@
   tags:
     - always
 
+- name: setup additional repos
+  ansible.builtin.include_tasks: "tasks/setup-repos.yml"
+
 - name: ensure desktop software packages are installed
-  package:
+  ansible.builtin.package:
     pkg: "{{ desktop_software_packages }}"
     state: present
   tags:
@@ -27,15 +30,15 @@
     - install
 
 - name: install flatpak software
-  include_tasks: "tasks/flatpak.yml"
+  ansible.builtin.include_tasks: "tasks/flatpak.yml"
   when: software_desktop_package_flatpak_software
 
 - name: install snap software
-  include_tasks: "tasks/snap.yml"
+  ansible.builtin.include_tasks: "tasks/snap.yml"
   when: software_desktop_package_snap_software
 
 - name: run OS specific tasks
-  include_tasks: "{{ item }}"
+  ansible.builtin.include_tasks: "{{ item }}"
   with_first_found:
     - "tasks/{{ ansible_distribution }}.yml"
     - "tasks/{{ ansible_os_family }}.yml"

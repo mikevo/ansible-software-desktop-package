@@ -1,6 +1,8 @@
 ---
 dependency:
   name: galaxy
+  options:
+    force: false
 driver:
   name: docker
 platforms:
@@ -16,8 +18,4 @@ platforms:
   - name: desktop-ubuntu2204
     image: "ubuntu:22.04"
     pre_build_image: true
-lint: |
-  set -e
-  yamllint .
-  ansible-lint
-  flake8
+role_name_check: 1

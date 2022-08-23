@@ -1,6 +1,7 @@
 ---
 desktop_software_packages:
   - ubuntu-desktop
+  - 1password
   - imagemagick
   - network-manager-openconnect-gnome
   - acpi
@@ -32,6 +33,7 @@ desktop_software_packages:
   - gnucash
   - gnumeric
   - gnuplot
+  - google-chrome-stable
   - gthumb
   - i3
   - i3lock
@@ -48,6 +50,7 @@ desktop_software_packages:
   - lxappearance
   - mpv
   - network-manager-gnome
+  - network-manager-vpnc
   - nextcloud-desktop
   - nitrogen
   - octave
@@ -58,6 +61,7 @@ desktop_software_packages:
   # - plasma-breeze
   # - plasma-breeze-common
   - playerctl
+  - pspp
   - py3status
   - python3-tzlocal
   - qt5ct
