@@ -14,6 +14,7 @@ software_desktop_package_snap_packages:
   - name: onlyoffice-desktopeditors
   - name: drawio
   - name: projectlibre
+  - name: zoom-client
 
 software_desktop_package_flatpak_packages:
   - name: com.mattermost.Desktop
