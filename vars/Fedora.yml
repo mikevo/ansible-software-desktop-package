@@ -38,6 +38,7 @@ desktop_software_packages:
   - gnucash
   - gnumeric
   - gnuplot
+  - google-chrome-stable
   - gthumb
   - i3
   - i3lock
