@@ -72,6 +72,7 @@ desktop_software_packages:
   - sway
   # - swaylock
   - texlive-latex-recommended
+  - texlive-lang-german
   - texlive-science
   - texlive-xetex
   - thunderbird
