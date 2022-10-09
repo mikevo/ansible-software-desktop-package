@@ -46,6 +46,7 @@ desktop_software_packages:
   - libnsl2
   - lxappearance
   - mpv
+  - nautilus-nextcloud
   - network-manager-gnome
   - network-manager-vpnc
   - nextcloud-desktop
@@ -66,6 +67,7 @@ desktop_software_packages:
   - rclone-browser
   - rofi
   - scribus
+  - seahorse-nautilus
   - snapd
   - sway
   # - swaylock
