@@ -6,14 +6,11 @@ dependency:
 driver:
   name: docker
 platforms:
-  - name: desktop-fedora36
-    image: "fedora:36"
+  - name: desktop-fedora37
+    image: "fedora:37"
     pre_build_image: true
   - name: desktop-debian11
     image: "debian:11"
-    pre_build_image: true
-  - name: desktop-debian-testing
-    image: "debian:testing"
     pre_build_image: true
   - name: desktop-ubuntu2204
     image: "ubuntu:22.04"
