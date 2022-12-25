@@ -66,6 +66,7 @@ desktop_software_packages:
   - plasma-breeze-common
   - playerctl
   - py3status
+  - python3-pip
   - python3-tzlocal
   - qt5ct
   - rclone

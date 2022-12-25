@@ -60,11 +60,28 @@
 
   when: ansible_os_family == 'Debian'
 
+- name: Ubuntu based distributions
+  block:
+
+  - name: ensure Mozilla PPA repo is present
+    ansible.builtin.apt_repository:
+      repo: ppa:mozillateam/ppa
+
+  - name: ensure that Firefox gets installed from Mozilla PPA
+    ansible.builtin.copy:
+      src: 'mozilla-firefox'
+      dest: '/etc/apt/preferences.d/'
+      owner: 'root'
+      group: 'root'
+      mode: '0644'
+
+  when: ansible_distribution == 'Ubuntu'
+
 - name: RedHat based distributions
   block:
 
   - name: ensure google chrome repo is present
-    copy:
+    ansible.builtin.copy:
       src: 'google-chrome.repo'
       dest: '/etc/yum.repos.d/'
       owner: 'root'
