@@ -11,6 +11,7 @@ desktop_software_packages:
   - breeze-gtk-theme
   - breeze-icon-theme
   - brightnessctl
+  - brother-cups-wrapper-ac  # Driver for Brother HL-4040CN
   - chromium-browser
   - clang
   - clang-tools
