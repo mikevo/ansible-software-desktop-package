@@ -11,7 +11,6 @@ software_desktop_package_snap_packages:
     classic: yes
   - name: spotify
   - name: todoist
-  - name: onlyoffice-desktopeditors
   - name: drawio
   - name: projectlibre
   - name: zoom-client
