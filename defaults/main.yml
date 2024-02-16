@@ -20,3 +20,4 @@ software_desktop_package_flatpak_packages:
   - name: org.cryptomator.Cryptomator
   - name: org.signal.Signal
   - name: org.zotero.Zotero
+  - name: org.jabref.jabref

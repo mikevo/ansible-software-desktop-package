@@ -41,7 +41,6 @@ desktop_software_packages:
   - i3lock
   - i3status
   - inkscape
-  - jabref
   - kbibtex
   - kde-style-breeze
   - keepassxc
