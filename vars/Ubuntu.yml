@@ -49,7 +49,9 @@ desktop_software_packages:
   - language-pack-de
   - latexmk
   - libnsl2
+  - libreoffice
   - libreoffice-base
+  - libreoffice-base-drivers
   - lxappearance
   - mpv
   - nautilus-nextcloud
