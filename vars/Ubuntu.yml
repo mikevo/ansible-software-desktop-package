@@ -49,6 +49,7 @@ desktop_software_packages:
   - language-pack-de
   - latexmk
   - libnsl2
+  - libreoffice-base
   - lxappearance
   - mpv
   - nautilus-nextcloud
